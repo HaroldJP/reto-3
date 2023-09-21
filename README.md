@@ -1,7 +1,7 @@
 # reto-4
 El desarrollo de este reto se encuentra en el siguiente cuaderno de Google Colab: https://colab.research.google.com/drive/1h4CIulbpTz9TlAhSqaObxmu1fUip5PMy?hl=es#scrollTo=W7xvXfxTQB5e
 
-##Punto 1
+#Punto 1
 ```python
 a : int
 a = int(input('Escriba un número entero en código ASCII:'))
@@ -21,7 +21,7 @@ match a:
     print('El código ASCII ingresado no pertenece a ninguna vocal minúscula')
 ```
 
-##Punto 2
+#Punto 2
 
 ```pyhton
 lang = input('Escriba solo un número, letra o símbolo:')
@@ -32,7 +32,7 @@ else:
   print('El código ASCII de ' +str(lang)+ ' es ' +str(lang1)+ ', y por lo tanto, es un número impar')
 ```
 
-##Punto 3
+#Punto 3
 
 ```python
 lang = input('Escriba un único carácter:')
@@ -42,7 +42,7 @@ else:
   print('El carácter ' +str(lang)+ ' no es un dígito')
 ```
 
-##Punto 4
+#Punto 4
 
 ```python
 n : float
@@ -55,7 +55,7 @@ elif n == 0:
   print('El número ' +str(n)+ ' es el neutro para la suma')
 ```
 
-##Punto 5
+#Punto 5
 
 ```python
 a : float ##Esta es la coordenada en x del centro del círculo
@@ -78,7 +78,7 @@ elif f == c**2:
   print('El punto ' '(' +str(d)+ ' , ' +str(e)+ ') pertenece a la circunferencia del círculo')
 ```
 
-##Punto 6
+#Punto 6
 
 ```python
 a : float
